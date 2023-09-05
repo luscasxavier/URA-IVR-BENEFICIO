@@ -1,6 +1,6 @@
 <?php   
  
-$conn = mysql_connect("localhost", "root", "tstrt12");
-$db = mysql_select_db("sistem_ura", $conn);
+$conn = mysql_connect($server, $user, $password);
+$db = mysql_select_db($db, $conn);
 
 ?>
