@@ -1,6 +1,6 @@
 <?php   
  
-$conn = mysql_connect($server, $db, $password);
-$db = mysql_select_db($user, $conn);
+$conn = mysql_connect($server, $user, $password);
+$db = mysql_select_db($db, $conn);
 
 ?>
